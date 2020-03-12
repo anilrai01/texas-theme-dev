@@ -234,7 +234,7 @@ function buziness_scripts() {
 
 	wp_enqueue_style( 'slick-css', get_template_directory_uri() .'/assets/css/slick' . $min . '.css', '', 'v1.8.0');
 
-	wp_enqueue_style( 'blocks-css', get_template_directory_uri() .'/assets/css/blocks' . $min . '.css', '');
+	wp_enqueue_style( 'blocks-css', get_template_directory_uri() .'/assets/css/blocks' . $min . '.css',	 '');
 
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() .'/assets/css/bootstrap' . $min . '.css', '');
 
