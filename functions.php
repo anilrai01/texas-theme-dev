@@ -236,7 +236,13 @@ function buziness_scripts() {
 
 	wp_enqueue_style( 'blocks-css', get_template_directory_uri() .'/assets/css/blocks' . $min . '.css', '');
 
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() .'/assets/css/bootstrap' . $min . '.css', '');
+
 	wp_enqueue_style( 'buziness-style', get_stylesheet_uri() );
+	
+	wp_enqueue_style( 'style', get_template_directory_uri() .'/assets/css/style' . '.css', '');
+
+
 
 	wp_enqueue_script( 'jquery-slick', get_template_directory_uri() . '/assets/js/slick' . $min . '.js', array('jquery'), '2017417', true );
 
@@ -247,6 +253,8 @@ function buziness_scripts() {
 	wp_enqueue_script( 'buziness-skip-link-focus-fix', get_template_directory_uri() . '/assets/js/skip-link-focus-fix' . $min . '.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'buziness-custom-js', get_template_directory_uri() . '/assets/js/custom' . $min . '.js', array('jquery'), '20151215', true );  
+
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/assets/js/bootstrap' . $min . '.js', '', '', true );  
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

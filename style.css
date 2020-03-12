@@ -4735,11 +4735,3 @@ body.search.left-sidebar .blog-posts-wrapper .col-3 article .post-item .entry-co
     }
 }
 
-
-/*refractor changes*/
-
-#top-bar.col-2 .widget{
-    float:right !important;
-}
-
-/*refractor ends*/
