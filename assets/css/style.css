@@ -12,7 +12,7 @@
 /*refractor changes*/
 body{
     /* background: #FEFEFE !important; */
-    background: var(--bgShade);
+    background: #fff;
 
 }
 
@@ -39,7 +39,7 @@ body{
 
 .carousel-caption{
   background: rgba(255,255,255,0.7);
-  padding: 20px 0 0  10rem;
+  padding: 20px 0 0  7rem;
 
     position: absolute;
     top:0 !important;
@@ -51,7 +51,7 @@ body{
     flex-direction: column;
     justify-content: center; /*verticle alignments */
     align-items: flex-start; /*horizontal alignments */
-    clip-path: polygon(0 0, 76% 0, 45% 100%, 0% 100%);
+    clip-path: polygon(0 0, 75% 0, 50% 100%, 0% 100%);
 }
 
 .carousel-caption h5{
@@ -169,4 +169,161 @@ body{
 .wel-btn{
     padding: 1.1rem 5rem;
 }
+
+
+/* about us start  */
+
+section#about-us {
+    /* background : #f2f2f2; */
+    height: 80vh;
+}
+#about-us .container-fluid{
+    height: inherit;
+}
+/* #about-us .inner-container{
+    width: 100% !important;
+    height: 100% !important;
+} */
+#about-us .container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.grid-img{
+    width: 400px !important;
+    height: 100% !important;
+    background: pink !important;
+    position: relative;
+    /* background: var(--blueShade); */
+}
+
+/* .circle{
+    position: absolute;
+} */
+
+
+/* Left Side Circle  */
+
+/* Large Circle  */
+
+.circle-big{
+    overflow: hidden;
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50%;
+    background: red !important;
+}
+.circle-big:nth-child(1){
+    top: 12rem !important;
+    left: 50% !important;
+}
+.circle-big:nth-child(2){
+    top: 30rem;
+    right: 2rem;
+}
+
+
+/* Medium Circle  */
+.circle-md{
+    overflow: hidden;
+    width: 8rem ;
+    height: 8rem ;
+    border-radius: 50%;
+    background: red !important;
+}
+.circle-md:nth-child(1){
+    top: 2rem ;
+    right:2rem;
+}
+.circle-md:nth-child(2){
+    top: 8rem ;
+    left: 2rem;
+}
+
+.circle-md:nth-child(3){
+    top: 25rem;
+    left: 3rem;
+}
+
+.circle-md, .circle-big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+.circle-md:hover, .circle-big:hover{
+    transform: scale(1.2);
+}
+
+/* Mid Content  */
+.mid-text{
+    width: 100%;
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.mid-text h1{
+    position: relative;
+    /* padding-top: 5rem; */
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.mid-text h1:before{
+    content: '';
+    position: absolute;
+    bottom: -3rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: var(--dblue);
+}
+
+.mid-text p{
+    margin-top:5rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Right Side Circle  */
+
+.right-grid .circle-md:nth-child(1){
+    top: 2rem ;
+    left: 2rem;
+}
+.right-grid .circle-md:nth-child(2){
+    top: 8rem ;
+    left: auto;
+    right: 2rem;
+}
+
+.right-grid .circle-md:nth-child(3){
+    top: 25rem;
+    left: auto;
+    right: 3rem;
+}
+/* Right Big  */
+.right-grid .circle-big:nth-child(1){
+    top: 12rem !important;
+    left: 20% !important;
+}
+.right-grid .circle-big:nth-child(2){
+    top: 30rem;
+    left: 2rem;
+}
+
+
+/* Large Circle  */
+
+/* Small Circle  */
+
+/* end of about us  */
+
 /*refractor ends*/

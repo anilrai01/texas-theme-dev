@@ -17,11 +17,11 @@ get_header(); ?>
 <!-- Carousel Start -->
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
+  <!-- <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
+  </ol> -->
   <div class="carousel-inner">
 
   <div class="carousel-item active">
@@ -93,6 +93,69 @@ get_header(); ?>
 </section>
 
 <!-- ending of second section  -->
+
+
+<!-- starting of about us session  -->
+<section id="about-us">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 grid-img">
+        <!-- small circle  -->
+          <div>
+            <div class="position-absolute circle-md">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u1.jpeg" alt="">
+            </div>
+            <div class="position-absolute circle-md">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u4.jpeg" alt="">
+            </div>
+            <div class="position-absolute circle-md">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u5.jpeg" alt="">
+            </div>
+          </div>
+        <!-- large circle  -->
+          <div>
+            <div class="position-absolute circle-big">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u2.jpeg" alt="">
+            </div>
+            <div class="position-absolute circle-big">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u8.jpeg" alt="">
+            </div>
+          </div>
+      </div>
+      <div class="col-md-4 mid-text">
+        <h1>A Community of Connection</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Debitis alias tempora, consequuntur accusamus at doloremque 
+          saepe, nulla sit deleniti sequi iure reiciendis! Animi 
+          accusantium consequuntur quis atque illum iusto numquam!</p>
+      </div>
+      <div class="col-md-4 grid-img right-grid">
+         <!-- small circle  -->
+         <div>
+            <div class="position-absolute circle-md">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u6.jpeg" alt="">
+            </div>
+            <div class="position-absolute circle-md">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u7.jpeg" alt="">
+            </div>
+            <div class="position-absolute circle-md">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u9.jpeg" alt="">
+            </div>
+          </div>
+        <!-- large circle  -->
+          <div>
+            <div class="position-absolute circle-big">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u10.jpeg" alt="">
+            </div>
+            <div class="position-absolute circle-big">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u11.jpeg" alt="">
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ending of about us session  -->
     
 			<?php
 			while ( have_posts() ) : the_post();
