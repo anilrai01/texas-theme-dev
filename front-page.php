@@ -67,6 +67,10 @@ get_header(); ?>
 
     <!-- Carousel End -->
 </section>
+<!-- End of Hero Section  -->
+
+
+<!-- starting second section  -->
     
 			<?php
 			while ( have_posts() ) : the_post();
