@@ -13,7 +13,11 @@
 body{
     /* background: #FEFEFE !important; */
     background: #fff;
+}
 
+.container .container-fluid{
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 /* Hero Section */
@@ -171,23 +175,19 @@ body{
 }
 
 
-/* about us start  */
+/* image grid start  */
 
-section#about-us {
+section#img-grid {
     /* background : #f2f2f2; */
     height: 80vh;
 }
-#about-us .container-fluid{
+#img-grid .container-fluid{
     height: inherit;
 }
-/* #about-us .inner-container{
+/* #img-grid .inner-container{
     width: 100% !important;
     height: 100% !important;
 } */
-#about-us .container-fluid{
-    margin: 0 !important;
-    padding: 0 !important;
-}
 
 .grid-img{
     width: 400px !important;
@@ -287,6 +287,7 @@ section#about-us {
 }
 
 .mid-text p{
+    
     margin-top:5rem;
     text-align: center;
     color: rgba(0, 0, 0, 0.7);
@@ -320,10 +321,81 @@ section#about-us {
 }
 
 
-/* Large Circle  */
+/* end of image grid  */
 
-/* Small Circle  */
+/* start of about us  */
 
-/* end of about us  */
+section#about-us{
+    width: 100%;
+    /* background: pink;; */
+    height: 60vh;
+    margin-bottom: 5rem;
+}
 
+section#about-us .container-fluid, 
+section#about-us .container-fluid .about-row
+{
+    height: inherit !important;
+}
+
+.place{
+    position: relative;
+    width: 80% !important;
+    height: inherit !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    overflow: hidden;
+    box-shadow: 10px ;
+}
+.place img{
+    width: 100%;
+    height: auto;
+}
+/* .place::after{
+    content: 'College';
+    color: #000;
+    bottom: -10px;
+    
+    width: 500px;
+    height: 20px;
+    background: #ccc;
+} */
+
+.about-banner{
+    padding: 3rem 0 0 5rem;
+}
+.about-banner h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.about-banner p{
+    padding-right: 5rem;
+    text-align: justify;
+    margin-bottom: 3rem;
+}
+
+/* footer */
+
+section#footer{
+    width: 100%;
+    height: 50vh;
+    background: var(--dblue);
+    border-bottom: 5px solid #fff;
+    padding: 3rem
+}
+
+#footer h3{
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+#footer p, #footer nav ul li{
+    color: #fff;
+}
+#footer nav ul{
+    list-style-type: none;
+}
 /*refractor ends*/

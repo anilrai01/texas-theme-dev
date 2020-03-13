@@ -95,8 +95,8 @@ get_header(); ?>
 <!-- ending of second section  -->
 
 
-<!-- starting of about us session  -->
-<section id="about-us">
+<!-- starting of iamge Grid session  -->
+<section id="img-grid">
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 grid-img">
@@ -155,7 +155,67 @@ get_header(); ?>
     </div>
   </div>
 </section>
-<!-- ending of about us session  -->
+<!-- ending of image grid session  -->
+
+<!-- about us session start  -->
+
+<section id="about-us">
+  <div class="container-fluid">
+    <div class="row about-row">
+      <div class="col-md-4 about-banner">
+        <h1>Our Schools</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
+          elit. Impedit at id autem aspernatur, labore, vero 
+          exercitationem rem corporis voluptates iste tempora 
+          suscipit, ipsum commodi voluptatem nam laboriosam 
+          fugit fugiat vel.</p>
+
+      <button class="btn btn-primary">Apply Now</button>
+      </div>
+      <div class="col-md-4">
+        <div class="place">
+      <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
+      
+      </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="place">
+      <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- about us session end  -->
+
+<section id="footer">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h3>Contact</h3>
+          <p>Chabahil Pipalbot</p>
+          <p>Ph. no 123 456</p>
+        </div>
+        <div class="col-md-4">
+          <h3>Quick Links</h3>
+          <nav class="quick-links">
+            <ul>
+              <li>Contact Us</li>
+              <li>Terms and Conditions</li>
+              <li>Blogs</li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-md-5">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     
 			<?php
 			while ( have_posts() ) : the_post();
