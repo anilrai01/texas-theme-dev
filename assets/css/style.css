@@ -38,18 +38,20 @@ body{
 
 
 .carousel-caption{
-  background:var(--bgShade);
-  padding: 20px 30px;
+  background: rgba(255,255,255,0.7);
+  padding: 20px 0 0  40px;
     position: absolute;
     top:0 !important;
     left: 0 !important;
     height: 100%; 
 
-    width: 30%;  
+    width: 60vw;  
     display: flex !important;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /*verticle alignments */
+    align-items: flex-start; /*horizontal alignments */
+    clip-path: polygon(0 0, 76% 0, 45% 100%, 0% 100%);
+
 }
 
 .carousel-caption h5{
@@ -68,9 +70,12 @@ body{
 .carousel-caption p{
     font-size: 1.3rem;
     line-height: 2rem;
-    color: var(--orange);
+    color: rgba(0,0,0,0.5);
     font-weight: bold;
     margin-top: 2rem;
+    /* background: red; */
+    padding-right: 35rem;
+    text-align: left;
 }
 
 .carousel-caption button {
@@ -78,6 +83,7 @@ body{
     border: none;
     height: 4rem;
     font-size: 1.3rem;
+    margin-top: 2rem;
 }
 
 .carousel .carousel-inner{
@@ -125,6 +131,8 @@ body{
     left: auto;
 }
 
+
+#top-bar
 
 
 /* Hero Section End  */

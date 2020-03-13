@@ -29,7 +29,7 @@ get_header(); ?>
       <div class="carousel-caption hero-banner d-none d-md-block">
       <h5>Building</h5>
         <h5> Character</h5>
-        <p>Our students are challenged to grow intellectually in a close-knit learning community.</p>
+        <p>Our students are challenged to grow intellectually here I am again adding new content for p elelment</p>
         <button type="submit" class="btn btn-outline btn-primary">Explore College</button>
       </div>
   </div>
@@ -39,7 +39,7 @@ get_header(); ?>
       <div class="carousel-caption hero-banner d-none d-md-block">
         <h5>Building</h5>
         <h5> Character</h5>
-        <p>Our students are challenged to grow intellectually in a close-knit learning community.</p>
+        <p>Our students are challenged to grow intellectually here I am again adding new content for p elelment</p>
         <button type="submit" class="btn btn-outline btn-primary">Explore College</button>
       </div>
   </div>
@@ -49,7 +49,7 @@ get_header(); ?>
       <div class="carousel-caption hero-banner d-none d-md-block">
       <h5>Building</h5>
         <h5> Character</h5>
-        <p>Our students are challenged to grow intellectually in a close-knit learning community.</p>
+        <p>Our students are challenged to grow intellectually here I am again adding new content for p elelment</p>
         <button type="submit" class="btn btn-outline btn-primary">Explore College</button>
       </div>
   </div>
@@ -71,6 +71,7 @@ get_header(); ?>
 
 
 <!-- starting second section  -->
+stop 
     
 			<?php
 			while ( have_posts() ) : the_post();
