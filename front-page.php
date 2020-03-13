@@ -71,7 +71,28 @@ get_header(); ?>
 
 
 <!-- starting second section  -->
-stop 
+<section id="message-from-principle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>
+        Attainment of education should have its core significance
+  when its applicability
+        </h1>
+        <p>Welcome to Texas College located at the heart of Kathmandu near Chabahil Area</p>
+        <button class="btn btn-primary wel-btn">Welcome </button>
+      </div>
+      <div class="col-md-6">
+        <figure>
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/c5.jpg" alt="">
+          <figcaption>Prof. Dr. Jai Raj Awasthi</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ending of second section  -->
     
 			<?php
 			while ( have_posts() ) : the_post();

@@ -39,7 +39,8 @@ body{
 
 .carousel-caption{
   background: rgba(255,255,255,0.7);
-  padding: 20px 0 0  40px;
+  padding: 20px 0 0  10rem;
+
     position: absolute;
     top:0 !important;
     left: 0 !important;
@@ -51,7 +52,6 @@ body{
     justify-content: center; /*verticle alignments */
     align-items: flex-start; /*horizontal alignments */
     clip-path: polygon(0 0, 76% 0, 45% 100%, 0% 100%);
-
 }
 
 .carousel-caption h5{
@@ -132,9 +132,41 @@ body{
 }
 
 
-#top-bar
-
 
 /* Hero Section End  */
 
+
+/* Starting of message section  */
+
+#message-from-principle{
+    padding: 10rem !important;
+    /* background: red; */
+}
+
+#message-from-principle h1{
+    position: relative;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
+#message-from-principle h1::before{
+    content: '';
+    position: absolute;
+    top: -2rem;
+    left: 0;
+    background: var(--dblue);
+    width: 10rem;
+    height: 10px;
+    border-radius: 30px;
+}
+#message-from-principle p{
+    font-size: 1.5rem;
+    color: rgba(0,0,0,0.5);
+    margin-top: 1.5rem;
+}
+
+.wel-btn{
+    padding: 1.1rem 5rem;
+}
 /*refractor ends*/
