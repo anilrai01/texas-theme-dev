@@ -25,7 +25,7 @@ get_header(); ?>
   <div class="carousel-inner">
 
   <div class="carousel-item active">
-      <div class="banner" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/c3.jpg)"></div>
+      <div class="banner" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/school/school.png)"></div>
       <div class="carousel-caption hero-banner d-none d-md-block">
       <h5>Building</h5>
         <h5> Character</h5>
@@ -74,7 +74,7 @@ get_header(); ?>
 <section id="message-from-principle">
   <div class="container">
     <div class="row">
-      <div class="col-md-5">
+      <div class="col-md-6">
         <h1>
         A message from the principle
         </h1>
@@ -83,11 +83,12 @@ get_header(); ?>
         </p>
         <button class="btn btn-primary wel-btn">Welcome </button>
       </div>
-      <div class="col-md-6 offset-1">
+      <div class="col-md-5 offset-1">
         <figure>
-          <div class="professor-img" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/prof.jpeg)"></div>
+          <div class="professor-img" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/bhesh.png)"></div>
           
-          <figcaption>Prof. Dr. Jai Raj Awasthi</figcaption>
+          <figcaption class="ml-4 pl-5 pt-2">Mr. Bhesh Raj Pokhrel</figcaption>
+          
         </figure>
       </div>
     </div>
@@ -114,8 +115,8 @@ get_header(); ?>
         </div>
 
         <div class="col-md-7 school-grid">
-        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/school1.jpeg)"></div>
-        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/school2.jpeg)"></div>
+        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/our-school/lab.png)"></div>
+        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/our-school/small-lab.png)"></div>
 
         </div>
     </div>
@@ -134,27 +135,27 @@ get_header(); ?>
         <!-- small circle  -->
           <div>
             <div class="position-absolute circle-md">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u1.jpeg" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-1.png" alt="">
             </div>
             <div class="position-absolute circle-md">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u4.jpeg" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-2.png" alt="">
             </div>
             <div class="position-absolute circle-md">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u5.jpeg" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-3.png" alt="">
             </div>
           </div>
         <!-- large circle  -->
           <div>
             <div class="position-absolute circle-big">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u2.jpeg" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-4.png" alt="">
             </div>
             <div class="position-absolute circle-big">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u8.jpeg" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-5.png" alt="">
             </div>
           </div>
       </div>
       <div class="col-md-4 mid-text">
-        <h1>Our Features</h1>
+        <h1>Our School Activities</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
           Debitis alias tempora, consequuntur accusamus at doloremque 
           saepe, nulla sit deleniti sequi iure reiciendis! Animi 
@@ -163,23 +164,24 @@ get_header(); ?>
       <div class="col-md-4 grid-img right-grid">
          <!-- small circle  -->
          <div>
+
             <div class="position-absolute circle-md">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u6.jpeg" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-6.png" alt="">
             </div>
             <div class="position-absolute circle-md">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u7.jpeg" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-7.png" alt="">
             </div>
             <div class="position-absolute circle-md">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u9.jpeg" alt="">
+            <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-8.png" alt="">
             </div>
           </div>
         <!-- large circle  -->
           <div>
             <div class="position-absolute circle-big">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u10.jpeg" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-9.png" alt="">
             </div>
             <div class="position-absolute circle-big">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/users/u11.jpeg" alt="">
+              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-10.png" alt="">
             </div>
           </div>
       </div>
@@ -277,11 +279,11 @@ get_header(); ?>
 <!-- isotopic section  -->
 
 <section id="isotop">
-  <div class="iso-img isotop-one" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/top-right.jpeg)"></div>
-  <div class="iso-img isotop-two" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/mid-left.jpeg)"></div>
-  <div class="iso-img isotop-three" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/bot-right.jpeg)"></div>
+  <div class="iso-img isotop-one" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/it-lab.png)"></div>
+  <div class="iso-img isotop-two" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/library.png)"></div>
+  <div class="iso-img isotop-three" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/games-sports.png)"></div>
   <div class="iso-content">
-    <h2>Whole new world of Creativity</h2>
+    <h2>Our Salient Features</h2>
     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
       Quod temporibus itaque nam error, minima veniam est impedit </p>
     <button class="btn btn-primary">Our Extra Curricular Activities</button>
@@ -313,7 +315,7 @@ get_header(); ?>
           </nav>
         </div>
         <div class="col-md-5">
-
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/logo/texas-logo.png" alt="">
         </div>
       </div>
     </div>

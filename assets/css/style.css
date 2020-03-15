@@ -178,7 +178,7 @@ body{
 }
 
 .professor-img{
-    width: 70%;
+    width: 80%;
     height: 500px;
 
 
@@ -245,6 +245,14 @@ section#img-grid {
     height: 8rem ;
     border-radius: 50%;
     background: red !important;
+}
+.circle-big img{
+    height: 100%;
+    width: auto;
+}
+.circle-md img{
+    height: 100%;
+    width: auto;
 }
 .circle-md:nth-child(1){
     top: 2rem ;
