@@ -85,7 +85,8 @@ get_header(); ?>
       </div>
       <div class="col-md-6 offset-1">
         <figure>
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/c5.jpg" alt="">
+          <div class="professor-img" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/prof.jpeg)"></div>
+          
           <figcaption>Prof. Dr. Jai Raj Awasthi</figcaption>
         </figure>
       </div>
@@ -94,6 +95,35 @@ get_header(); ?>
 </section>
 
 <!-- ending of second section  -->
+
+<!-- about us session start  -->
+
+<section id="about-us">
+  <div class="container-fluid">
+    <div class="row about-row">
+        <div class="col-md-5 about-banner">
+          <h1>Our Schools</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
+            elit. Impedit at id autem aspernatur, labore, vero 
+            exercitationem rem corporis voluptates iste tempora 
+            elit. Impedit at id autem aspernatur, labore, vero 
+            exercitationem rem corporis voluptates iste tempora 
+            </p>
+
+        <button class="btn btn-primary">Apply Now</button>
+        </div>
+
+        <div class="col-md-7 school-grid">
+        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/school1.jpeg)"></div>
+        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/school2.jpeg)"></div>
+
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- about us session end  -->
+
 
 
 <!-- starting of iamge Grid session  -->
@@ -158,39 +188,6 @@ get_header(); ?>
 </section>
 <!-- ending of image grid session  -->
 
-<!-- about us session start  -->
-
-<section id="about-us">
-  <div class="container-fluid">
-    <div class="row about-row">
-        <div class="col-md-5 about-banner">
-          <h1>Our Schools</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
-            elit. Impedit at id autem aspernatur, labore, vero 
-            exercitationem rem corporis voluptates iste tempora 
-            elit. Impedit at id autem aspernatur, labore, vero 
-            exercitationem rem corporis voluptates iste tempora 
-            </p>
-
-        <button class="btn btn-primary">Apply Now</button>
-        </div>
-
-        <div class="col-md-7 school-grid">
-          <div class="place">
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
-        
-        </div>
-        
-          <div class="place">
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
-        </div>
-
-        </div>
-    </div>
-  </div>
-</section>
-
-<!-- about us session end  -->
 
 <!-- news and events  -->
 <section id="news-events">
@@ -275,6 +272,23 @@ get_header(); ?>
   </div>
 </section>
 <!-- end of news and events  -->
+
+
+<!-- isotopic section  -->
+
+<section id="isotop">
+  <div class="iso-img isotop-one" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/top-right.jpeg)"></div>
+  <div class="iso-img isotop-two" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/mid-left.jpeg)"></div>
+  <div class="iso-img isotop-three" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/bot-right.jpeg)"></div>
+  <div class="iso-content">
+    <h2>Whole new world of Creativity</h2>
+    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      Quod temporibus itaque nam error, minima veniam est impedit </p>
+    <button class="btn btn-primary">Our Extra Curricular Activities</button>
+  </div>
+</section>
+
+<!-- end of isotopic seciton  -->
 
 
 <!-- footer session  -->
