@@ -74,15 +74,16 @@ get_header(); ?>
 <section id="message-from-principle">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-5">
         <h1>
-        Attainment of education should have its core significance
-  when its applicability
+        A message from the principle
         </h1>
-        <p>Welcome to Texas College located at the heart of Kathmandu near Chabahil Area</p>
+        <p>Welcome to Texas College located at the heart of Kathmandu near Chabahil Area
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus assumenda obcaecati earum eum labore amet id similique voluptatum, consequuntur ipsa, est possimus ab molestiae sint deserunt. Sequi voluptatem suscipit laudantium.
+        </p>
         <button class="btn btn-primary wel-btn">Welcome </button>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 offset-1">
         <figure>
           <img src="<?php echo get_template_directory_uri()?>/assets/images/c5.jpg" alt="">
           <figcaption>Prof. Dr. Jai Raj Awasthi</figcaption>
@@ -123,7 +124,7 @@ get_header(); ?>
           </div>
       </div>
       <div class="col-md-4 mid-text">
-        <h1>A Community of Connection</h1>
+        <h1>Our Features</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
           Debitis alias tempora, consequuntur accusamus at doloremque 
           saepe, nulla sit deleniti sequi iure reiciendis! Animi 
@@ -162,39 +163,126 @@ get_header(); ?>
 <section id="about-us">
   <div class="container-fluid">
     <div class="row about-row">
-      <div class="col-md-4 about-banner">
-        <h1>Our Schools</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
-          elit. Impedit at id autem aspernatur, labore, vero 
-          exercitationem rem corporis voluptates iste tempora 
-          suscipit, ipsum commodi voluptatem nam laboriosam 
-          fugit fugiat vel.</p>
+        <div class="col-md-5 about-banner">
+          <h1>Our Schools</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
+            elit. Impedit at id autem aspernatur, labore, vero 
+            exercitationem rem corporis voluptates iste tempora 
+            elit. Impedit at id autem aspernatur, labore, vero 
+            exercitationem rem corporis voluptates iste tempora 
+            </p>
 
-      <button class="btn btn-primary">Apply Now</button>
-      </div>
+        <button class="btn btn-primary">Apply Now</button>
+        </div>
 
-      <div class="col-md-4">
-        <div class="place">
-      <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
-      
-      </div>
-      </div>
-      <div class="col-md-4 ">
-        <div class="place">
-      <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
-      </div>
-      
-      </div>
+        <div class="col-md-7 school-grid">
+          <div class="place">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
+        
+        </div>
+        
+          <div class="place">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
+        </div>
+
+        </div>
     </div>
   </div>
 </section>
 
 <!-- about us session end  -->
 
+<!-- news and events  -->
+<section id="news-events">
+  <div class="container-fluid">
+    <h1 id="news-heading">News & Events</h1>
+    <div class="row news-row">
+        <div class="col-md-6 col-sm-12">
+        <div class="row">
+        <div class="col-sm-6">
+          <div class="news-card">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
+          <div class="card-content">
+            <span>School Trip</span>
+            <p>School trip to Jarshing Pauwa with all the staff members</p>
+            <button class="btn btn-primary">Read More</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="news-card">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
+          <div class="card-content">
+            <span>Science Exhibition</span>
+            <p>Many schools from all around Kathmandu is going to gather
+            </p>
+            <button class="btn btn-primary">Read More</button>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- second row  -->
+      <div class="col-md-6  col-sm-12">
+      <div class="row">
+      <div class="col-md-12" id="event-calender">
+        <div id="calender">
+          <!-- Events -->
+          <div class="event">
+            <div class="event-date">Thu 26</div>
+            <div class="event-act">
+              <h3>High School Final Exams</h3>
+              March 26 @ 8:00 AM - March 27 @ 5:00 PM
+            </div>
+          </div>
+          <!-- Events End  -->
+           <!-- Events -->
+           <div class="event">
+            <div class="event-date">Thu 26</div>
+            <div class="event-act">
+              <h3>High School Final Exams</h3>
+              March 26 @ 8:00 AM - March 27 @ 5:00 PM
+            </div>
+          </div>
+          <!-- Events End  -->
+           <!-- Events -->
+           <div class="event">
+            <div class="event-date">Thu 26</div>
+            <div class="event-act">
+              <h3>High School Final Exams</h3>
+              March 26 @ 8:00 AM - March 27 @ 5:00 PM
+            </div>
+          </div>
+          <!-- Events End  -->
+           <!-- Events -->
+           <div class="event">
+            <div class="event-date">Thu 26</div>
+            <div class="event-act">
+              <h3>High School Final Exams</h3>
+              March 26 @ 8:00 AM - March 27 @ 5:00 PM
+            </div>
+          </div>
+          <!-- Events End  -->
+          <button class="btn btn-secondary">Load More</button>
+          </div>
+        </div>
+        <!-- end of second row -->
+        </div>
+        <!-- end of second col -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end of news and events  -->
+
+
+<!-- footer session  -->
+
 <section id="footer">
   <div class="container-fluid">
     <div class="container">
-      <div class="row">
+      <div class="row ">
         <div class="col-md-3">
           <h3>Contact</h3>
           <p>Chabahil Pipalbot</p>
@@ -217,6 +305,7 @@ get_header(); ?>
     </div>
   </div>
 </section>
+<!-- end of footer sesstion  -->
 
     
 			<?php
