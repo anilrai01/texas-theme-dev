@@ -365,17 +365,33 @@ section#about-us .container-fluid .about-row
 } */
 
 .about-banner{
-    padding: 3rem 0 0 5rem;
+    padding-left: 5rem;
 }
 .about-banner h1{
     font-size: 4rem;
     font-weight: bold;
+    margin-bottom: 2rem;
 }
 .about-banner p{
+    position: relative;
     padding-right: 5rem;
     text-align: justify;
     margin-bottom: 3rem;
+    margin-left: 4rem;
 }
+
+.about-banner p::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2rem;
+    width: 5px;
+    border-radius: 50px;
+    height: 100%;
+    
+    background: var(--pink);
+}
+
 
 /* footer */
 

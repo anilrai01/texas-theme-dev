@@ -172,6 +172,7 @@ get_header(); ?>
 
       <button class="btn btn-primary">Apply Now</button>
       </div>
+
       <div class="col-md-4">
         <div class="place">
       <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
@@ -182,6 +183,7 @@ get_header(); ?>
         <div class="place">
       <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
       </div>
+      
       </div>
     </div>
   </div>
