@@ -108,7 +108,7 @@ if ( ! function_exists( 'buziness_footer_section' ) ) :
                 $copyright_footer = wp_kses_data( $copyright_footer );
                 }
                 // Powered by content.
-                $powered_by_text = sprintf( __( ' Theme Buziness by %s', 'buziness' ), '<a target="_blank" rel="designer" href="http://creativthemes.com/">Creativ Themes</a>' );
+                $powered_by_text = sprintf( __( ' Developed by %s', 'buziness' ), '<a target="_blank" rel="designer" href="http://prithakcreation.com/">Prithak Creation</a>' );
             ?>
             <div class="wrapper">
                 <span class="copy-right"><?php echo esc_html($copyright_footer);?><?php echo $powered_by_text;?></span>
