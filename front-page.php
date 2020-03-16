@@ -221,9 +221,9 @@ we adopt.
 <section id="news-events">
   <div class="container-fluid">
     <h1 id="news-heading">News & Events</h1>
-    <div class="row news-row">
+    <div class="row ">
         <div class="col-md-6 col-sm-12">
-        <div class="row">
+        <div class="row news-row">
         <div class="col-sm-6">
           <div class="news-card">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/news/tour.png" alt="">
