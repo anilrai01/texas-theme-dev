@@ -74,6 +74,7 @@ jQuery(document).ready(function($) {
                 END JQUERY
 ------------------------------------------------*/
 /*Custom*/
-$('.carousel').carousel()
+$('.carousel').carousel();
+$('.copy-right').innerText = "Copyright © All rights reserved. Prithak Creation";
 
 });

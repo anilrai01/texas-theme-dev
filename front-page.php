@@ -27,25 +27,25 @@ get_header(); ?>
   <div class="carousel-item active">
       <div class="banner" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/school/school.png)"></div>
       <div class="carousel-caption hero-banner d-none d-md-block">
-      <h5>Building</h5>
-        <h5> Character</h5>
+      <h5>Our</h5>
+        <h5> Premises</h5>
         <p>Our students are challenged to grow intellectually here I am again adding new content for p elelment</p>
         <button type="submit" class="btn btn-outline btn-primary">Explore College</button>
       </div>
   </div>
 
   <div class="carousel-item ">
-      <div class="banner" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/c4.jpg)"></div>
+  <div class="banner" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/school/staff.png)"></div>
       <div class="carousel-caption hero-banner d-none d-md-block">
-        <h5>Building</h5>
-        <h5> Character</h5>
+        <h5>Awesome</h5>
+        <h5> Teams</h5>
         <p>Our students are challenged to grow intellectually here I am again adding new content for p elelment</p>
         <button type="submit" class="btn btn-outline btn-primary">Explore College</button>
       </div>
   </div>
   
   <div class="carousel-item ">
-      <div class="banner" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/c5.jpg)"></div>
+  <div class="banner" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/school/home-ban.png)"></div>
       <div class="carousel-caption hero-banner d-none d-md-block">
       <h5>Building</h5>
         <h5> Character</h5>
@@ -134,23 +134,23 @@ get_header(); ?>
       <div class="col-md-4 grid-img">
         <!-- small circle  -->
           <div>
-            <div class="position-absolute circle-md">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-1.png" alt="">
+          <div class="position-absolute circle-md"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-1.png)">
             </div>
-            <div class="position-absolute circle-md">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-2.png" alt="">
+            <div class="position-absolute circle-md"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-2.png)">
             </div>
-            <div class="position-absolute circle-md">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-3.png" alt="">
+            <div class="position-absolute circle-md"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-3.png)">
             </div>
           </div>
         <!-- large circle  -->
           <div>
-            <div class="position-absolute circle-big">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-4.png" alt="">
+          <div class="position-absolute circle-big"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-4.png)">
             </div>
-            <div class="position-absolute circle-big">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-5.png" alt="">
+            <div class="position-absolute circle-big"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-5.png)">
             </div>
           </div>
       </div>
@@ -165,23 +165,23 @@ get_header(); ?>
          <!-- small circle  -->
          <div>
 
-            <div class="position-absolute circle-md">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-6.png" alt="">
+            <div class="position-absolute circle-md"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-6.png)">
             </div>
-            <div class="position-absolute circle-md">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-7.png" alt="">
+            <div class="position-absolute circle-md"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-7.png)">
             </div>
-            <div class="position-absolute circle-md">
-            <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-8.png" alt="">
+            <div class="position-absolute circle-md"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-8.png)">
             </div>
           </div>
         <!-- large circle  -->
           <div>
-            <div class="position-absolute circle-big">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-9.png" alt="">
+            <div class="position-absolute circle-big"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-9.png)">
             </div>
-            <div class="position-absolute circle-big">
-              <img src="<?php echo get_template_directory_uri()?>/assets/images/img-grid/gal-10.png" alt="">
+            <div class="position-absolute circle-big"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/img-grid/gal-10.png)">
             </div>
           </div>
       </div>
@@ -200,7 +200,7 @@ get_header(); ?>
         <div class="row">
         <div class="col-sm-6">
           <div class="news-card">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/news/tour.png" alt="">
           <div class="card-content">
             <span>School Trip</span>
             <p>School trip to Jarshing Pauwa with all the staff members</p>
@@ -211,7 +211,7 @@ get_header(); ?>
 
         <div class="col-sm-6">
           <div class="news-card">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/school/college.jpeg" alt="">
+          <img src="<?php echo get_template_directory_uri()?>/assets/images/news/science.png" alt="">
           <div class="card-content">
             <span>Science Exhibition</span>
             <p>Many schools from all around Kathmandu is going to gather
@@ -299,10 +299,14 @@ get_header(); ?>
   <div class="container-fluid">
     <div class="container">
       <div class="row ">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <h3>Contact</h3>
-          <p>Chabahil Pipalbot</p>
-          <p>Ph. no 123 456</p>
+          <div class="contact-link">
+            <div class="c-link mb-3"><i class="fa fa-map-marker mr-2"></i>Mitrapark, Chabahil Pipalbot</div>
+            <div class="c-link mb-3"><i class="fa fa-phone mr-2"></i>01-4479017, 4490670, 4488627</div>
+            <div class="c-link mb-3"><i class="fa fa-envelope mr-2"></i>enquiry@texasintl.edu.np</div>
+          </div>
+ 
         </div>
         <div class="col-md-4">
           <h3>Quick Links</h3>
@@ -314,7 +318,7 @@ get_header(); ?>
             </ul>
           </nav>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-4">
         <img src="<?php echo get_template_directory_uri()?>/assets/images/logo/texas-logo.png" alt="">
         </div>
       </div>
