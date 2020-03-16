@@ -1,5 +1,5 @@
 :root{
-    --pink: #EB0C77;
+    --pink: rgb(235, 12, 119);
     --dpink: #891C54;
     --logoFont: #E42C89;
     --purple: #322F7E;
@@ -8,6 +8,7 @@
     --dblue: #2A3A7B;
     --yellow: #F5E45C;
     --bgShade: #d7f3fb;
+    --pinkAlpha: rgba(235, 12, 119, 0.7);
 }
 /*refractor changes*/
 body{
@@ -144,6 +145,8 @@ body{
 
 #message-from-principle{
     padding: 8rem !important;
+    background: #eee;
+    margin-bottom: 150px;
     /* background: red; */
 }
 
@@ -193,11 +196,30 @@ body{
 
 section#img-grid {
     /* background : #f2f2f2; */
+    /* opacity: ; */
     height: 80vh;
     margin: 130px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20rem 0 !important; */
 }
+
 #img-grid .container-fluid{
+    position: relative;
     height: inherit;
+}
+.i-grid-row{
+    height: inherit !important;
+}
+.img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(161deg, rgba(117, 117, 117, 0.03) 0%, rgba(117, 117, 117, 0.03) 50%,rgba(8, 8, 8, 0.03) 50%, rgba(8, 8, 8, 0.03) 100%),linear-gradient(59deg, rgba(245, 245, 245, 0.05) 0%, rgba(245, 245, 245, 0.05) 50%,rgba(68, 68, 68, 0.05) 50%, rgba(68, 68, 68, 0.05) 100%),linear-gradient(286deg, rgba(107, 107, 107, 0.07) 0%, rgba(107, 107, 107, 0.07) 50%,rgba(7, 7, 7, 0.07) 50%, rgba(7, 7, 7, 0.07) 100%),linear-gradient(123deg, rgba(9, 9, 9, 0.09) 0%, rgba(9, 9, 9, 0.09) 50%,rgba(120, 120, 120, 0.09) 50%, rgba(120, 120, 120, 0.09) 100%),linear-gradient(170deg, rgba(202, 202, 202, 0.01) 0%, rgba(202, 202, 202, 0.01) 50%,rgba(19, 19, 19, 0.01) 50%, rgba(19, 19, 19, 0.01) 100%),linear-gradient(210deg, rgba(64, 64, 64, 0.04) 0%, rgba(64, 64, 64, 0.04) 50%,rgba(4, 4, 4, 0.04) 50%, rgba(4, 4, 4, 0.04) 100%),linear-gradient(90deg, rgb(249, 17, 190),rgb(100, 28, 213));
+    opacity: 0.8;
 }
 /* #img-grid .inner-container{
     width: 100% !important;
@@ -207,7 +229,7 @@ section#img-grid {
 .grid-img{
     width: 400px !important;
     height: 100% !important;
-    background: pink !important;
+    
     position: relative;
     /* background: var(--blueShade); */
 }
@@ -291,20 +313,23 @@ section#img-grid {
 
 /* Mid Content  */
 .mid-text{
-    width: 100%;
-    height: 100% !important;
+    /* width: 100%;
+    height: 100% !important; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
+    
 }
+
 .mid-text h1{
     position: relative;
     /* padding-top: 5rem; */
     text-align: center;
     font-size: 4rem;
     font-weight: bold;
+    color: #000;
 }
 
 .mid-text h1:before{
@@ -323,7 +348,9 @@ section#img-grid {
     font-size: 1.2rem;
     margin-top:5rem;
     text-align: center;
-    color: rgba(0, 0, 0, 0.8);
+    /* color: rgba(0, 0, 0, 0.8); */
+    color: #fff;
+
 }
 
 /* Right Side Circle  */
@@ -393,6 +420,21 @@ section#about-us{
 }
 .place:hover{
     transform: scale(1.1);
+}
+.place-overlay{
+    position: absolute;
+    bottom: 0;
+    clip-path: polygon(0 0, 100% 30%, 100% 100%, 0% 100%);
+    background: var(--pinkAlpha);
+    /* opacity: 0.5; */
+    width: 100%;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

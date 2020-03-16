@@ -76,7 +76,7 @@ get_header(); ?>
     <div class="row">
       <div class="col-md-6">
         <h1>
-        A message from the principle
+        A message from the Principal
         </h1>
         <p>
         
@@ -128,8 +128,16 @@ Mitrapark, Chabahil, it is accessible from all parts of the city and the periphe
         </div>
 
         <div class="col-md-7 school-grid">
-        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/our-school/lab.png)"></div>
-        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/our-school/small-lab.png)"></div>
+        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/our-school/lab.png)">
+        <div class="place-overlay">
+          School
+        </div>
+        </div>
+        <div class="place" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/our-school/small-lab.png)">
+        <div class="place-overlay">
+          Montesorri
+        </div>
+        </div>
 
         </div>
     </div>
@@ -143,7 +151,8 @@ Mitrapark, Chabahil, it is accessible from all parts of the city and the periphe
 <!-- starting of iamge Grid session  -->
 <section id="img-grid">
   <div class="container-fluid">
-    <div class="row">
+    <div class="img-overlay"></div>
+    <div class="row i-grid-row">
       <div class="col-md-4 grid-img">
         <!-- small circle  -->
           <div>
