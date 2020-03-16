@@ -78,16 +78,28 @@ get_header(); ?>
         <h1>
         A message from the principle
         </h1>
-        <p>Welcome to Texas College located at the heart of Kathmandu near Chabahil Area
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus assumenda obcaecati earum eum labore amet id similique voluptatum, consequuntur ipsa, est possimus ab molestiae sint deserunt. Sequi voluptatem suscipit laudantium.
+        <p>
+        
+Education leads us towards the open path of perfection:
+It cannot be confined to the narrow periphery of bookish
+knowledge; it transcends the barriers of geography,
+culture and the nation.
         </p>
+        <p>
+        Certainly, you will find Texas
+Network committed to the changes and reforms, we are
+supposed to adopt in our education delivery and to
+boost all-round development of the students through
+project oriented techniques so that they will be well
+prepared theoretically and practically to deal with the
+problems in the days to come</p>
         <button class="btn btn-primary wel-btn">Welcome </button>
       </div>
       <div class="col-md-5 offset-1">
         <figure>
           <div class="professor-img" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/bhesh.png)"></div>
           
-          <figcaption class="ml-4 pl-5 pt-2">Mr. Bhesh Raj Pokhrel</figcaption>
+          <figcaption class="text-center pt-2 text-dark">Mr. Bhesh Raj Pokhrel</figcaption>
           
         </figure>
       </div>
@@ -104,12 +116,13 @@ get_header(); ?>
     <div class="row about-row">
         <div class="col-md-5 about-banner">
           <h1>Our Schools</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing 
-            elit. Impedit at id autem aspernatur, labore, vero 
-            exercitationem rem corporis voluptates iste tempora 
-            elit. Impedit at id autem aspernatur, labore, vero 
-            exercitationem rem corporis voluptates iste tempora 
-            </p>
+          <p>
+          Established by a team of experienced, qualified, dedicated and dynamic academicians in the year 1992,
+Texas International Secondary School falls under the canopy of Texas International Education Network,
+which comprises of Science, Management, Humanities and Law (XI &XII), BBS, BA,BSW, B Sc.CSIT, BBM &
+BBA, BIT, BCS (Bachelor’s Level), as well as MBS and MBA (Master’s Level). Located at the heart of Kathmandu,
+Mitrapark, Chabahil, it is accessible from all parts of the city and the peripheries.
+          </p>
 
         <button class="btn btn-primary">Apply Now</button>
         </div>
@@ -156,10 +169,14 @@ get_header(); ?>
       </div>
       <div class="col-md-4 mid-text">
         <h1>Our School Activities</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Debitis alias tempora, consequuntur accusamus at doloremque 
-          saepe, nulla sit deleniti sequi iure reiciendis! Animi 
-          accusantium consequuntur quis atque illum iusto numquam!</p>
+        <p>
+        Developing positivism, love, affection, the
+sense of co-operation and decent habits
+among the young minds has always been our
+prime concern, for which no stone is left
+unturned. “Learn with fun” is the principle that
+we adopt.
+        </p>
       </div>
       <div class="col-md-4 grid-img right-grid">
          <!-- small circle  -->
@@ -284,8 +301,12 @@ get_header(); ?>
   <div class="iso-img isotop-three" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/games-sports.png)"></div>
   <div class="iso-content">
     <h2>Our Salient Features</h2>
-    <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-      Quod temporibus itaque nam error, minima veniam est impedit </p>
+    <p class="mb-5">
+    Caring, loving and supportive educational environment
+Inculcation of positive attitude with regard to dignity and discipline
+Renowned, competent, qualified, experienced, disciplined &
+co-operative faulty members & staffs
+    </p>
     <button class="btn btn-primary">Our Extra Curricular Activities</button>
   </div>
 </section>
@@ -302,9 +323,18 @@ get_header(); ?>
         <div class="col-md-4">
           <h3>Contact</h3>
           <div class="contact-link">
-            <div class="c-link mb-3"><i class="fa fa-map-marker mr-2"></i>Mitrapark, Chabahil Pipalbot</div>
-            <div class="c-link mb-3"><i class="fa fa-phone mr-2"></i>01-4479017, 4490670, 4488627</div>
-            <div class="c-link mb-3"><i class="fa fa-envelope mr-2"></i>enquiry@texasintl.edu.np</div>
+            <div class="cl">
+              <i class="fa fa-map-marker "></i>
+              <div class="c-link ">Mitrapark, Chabahil Pipalbot</div>
+            </div>
+            <div class="cl">
+              <i class="fa fa-phone "></i>
+              <div class="c-link ">01-4479017, 4490670, 4488627</div>
+            </div>
+            <div class="cl">
+              <i class="fa fa-envelope "></i>
+              <div class="c-link ">enquiry@texasintl.edu.np</div>
+            </div>
           </div>
  
         </div>
