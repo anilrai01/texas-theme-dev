@@ -74,7 +74,7 @@ get_header(); ?>
 <section id="message-from-principle">
   <div class="container">
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 col-sm-12 mb-5 pr-5">
         <h1>
         A message from the Principal
         </h1>
@@ -95,11 +95,11 @@ prepared theoretically and practically to deal with the
 problems in the days to come</p>
         <button class="btn btn-primary wel-btn">Welcome </button>
       </div>
-      <div class="col-md-5 offset-1">
+      <div class="col-md-6 col-sm-12 ">
         <figure>
           <div class="professor-img" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/bhesh.png)"></div>
           
-          <figcaption class="text-center pt-2 text-dark">Mr. Bhesh Raj Pokhrel</figcaption>
+          <figcaption class="text-center pt-3 text-dark fig-cap" >Mr. Bhesh Raj Pokhrel</figcaption>
           
         </figure>
       </div>
@@ -222,9 +222,9 @@ we adopt.
   <div class="container-fluid">
     <h1 id="news-heading">News & Events</h1>
     <div class="row ">
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 mb-5">
         <div class="row news-row">
-        <div class="col-sm-6">
+        <div class="col-md-6 mb-5">
           <div class="news-card">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/news/tour.png" alt="">
           <div class="card-content">
@@ -235,7 +235,7 @@ we adopt.
           </div>
         </div>
 
-        <div class="col-sm-6">
+        <div class="col-md-6">
           <div class="news-card">
           <img src="<?php echo get_template_directory_uri()?>/assets/images/news/science.png" alt="">
           <div class="card-content">
@@ -305,9 +305,21 @@ we adopt.
 <!-- isotopic section  -->
 
 <section id="isotop">
-  <div class="iso-img isotop-one" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/it-lab.png)"></div>
-  <div class="iso-img isotop-two" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/library.png)"></div>
-  <div class="iso-img isotop-three" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/games-sports.png)"></div>
+  <div class="iso-img isotop-one" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/it-lab.png)">
+  <div class="place-overlay">
+    Digital Lab
+  </div>
+  </div>
+  <div class="iso-img isotop-two" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/library.png)">
+  <div class="place-overlay">
+    Library
+  </div>
+  </div>
+  <div class="iso-img isotop-three" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/salient-features/games-sports.png)">
+  <div class="place-overlay">
+    Games and Sports
+  </div>
+  </div>
   <div class="iso-content">
     <h2>Our Salient Features</h2>
     <p class="mb-5">
