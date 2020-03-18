@@ -200,7 +200,7 @@ body{
 section#img-grid {
     /* background : #f2f2f2; */
     /* opacity: ; */
-    height: 80vh;
+    height: 83vh;
     /* height: auto; */
     margin: 130px 0;
     display: flex;
@@ -530,20 +530,20 @@ section#news-events{
     flex-direction: column;
     position: relative;
 }
-/* .news-card .news-card-img{
+.news-card .news-card-img{
     position: absolute;
     width: 100%;
     height: 60%;
     background-position: center;
     background-size: cover;
     background-origin: center;
-} */
-
-.news-card img{
-    width: 100%;
-    height: 60%;
 }
+
+
 .news-card .card-content{
+    position: absolute;
+    bottom: 0;
+    left: 0;
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem;
@@ -658,7 +658,7 @@ section#isotop{
 }
 .isotop-three{
     position: absolute;
-    bottom: -8%;
+    bottom: -9%;
     right: 10%;
     width: 30%;
     height: 350px;
@@ -752,15 +752,37 @@ cursor: pointer;
 
 
 
-@media screen and (max-width: 1366px){
+@media screen and (max-width: 1400px){
     :root{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     /* section#img-grid{
         height: 90vh;
     } */
 
+    /* carousel session  */
+    .carousel-caption p{
+        padding-right: 25rem !important;
+    }
+
+    /* about school  */
+    .about-banner p{
+        padding-right: 0;
+    }
+
+    /* isotop grid img  */
+    .isotop-one{
+        width: 400px;
+        height: 300px;
+    }
+    .isotop-two{
+        width: 25%;
+    }
+    .isotop-three{
+        bottom: -12%;
+        height: 280px;
+    }
    
 }
 

@@ -226,7 +226,11 @@ we adopt.
         <div class="row news-row">
         <div class="col-md-6 mb-5">
           <div class="news-card">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/news/tour.png" alt="">
+
+            <div class="news-card-img"
+              style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/news/tour.png)">
+            </div>
+
           <div class="card-content">
             <span>School Trip</span>
             <p>School trip to Jarshing Pauwa with all the staff members</p>
@@ -237,7 +241,11 @@ we adopt.
 
         <div class="col-md-6">
           <div class="news-card">
-          <img src="<?php echo get_template_directory_uri()?>/assets/images/news/science.png" alt="">
+            
+            <div class="news-card-img"
+            style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/news/science.png)">
+            </div>
+            
           <div class="card-content">
             <span>Science Exhibition</span>
             <p>Many schools from all around Kathmandu is going to gather
@@ -370,7 +378,7 @@ co-operative faulty members & staffs
           </nav>
         </div>
         <div class="col-md-4">
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/logo/texas-logo.png" alt="">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/logo/texas-nobg-logo.png" alt="">
         </div>
       </div>
     </div>
