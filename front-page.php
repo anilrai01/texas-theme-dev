@@ -72,38 +72,26 @@ get_header(); ?>
 
 <!-- starting second section  -->
 <section id="message-from-principle">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-12 mb-5 pr-5">
-        <h1>
-        A message from the Principal
-        </h1>
-        <p>
-        
-Education leads us towards the open path of perfection:
-It cannot be confined to the narrow periphery of bookish
-knowledge; it transcends the barriers of geography,
-culture and the nation.
-        </p>
-        <p>
-        Certainly, you will find Texas
-Network committed to the changes and reforms, we are
-supposed to adopt in our education delivery and to
-boost all-round development of the students through
-project oriented techniques so that they will be well
-prepared theoretically and practically to deal with the
-problems in the days to come</p>
-        <button class="btn btn-primary wel-btn">Welcome </button>
-      </div>
-      <div class="col-md-6 col-sm-12 ">
-        <figure>
-          <div class="professor-img" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/bhesh.png)"></div>
-          
-          <figcaption class="text-center pt-3 text-dark fig-cap" >Mr. Bhesh Raj Pokhrel</figcaption>
-          
-        </figure>
-      </div>
-    </div>
+  <div class="message-content">
+    <h1>A message from the Principal</h1>
+    <p>
+    Education leads us towards the open path of perfection:
+It cannot be confined to the narrow periphery of bookish 
+knowledge; it transcends the barriers of geography, culture 
+and the nation.
+</p><p>
+Certainly, you will find Texas Network committed to the 
+changes and reforms, we are supposed to adopt in our 
+education delivery and to boost all-round development of 
+the students through project oriented techniques so that 
+they will be well prepared theoretically and practically to 
+deal with the problems in the days to come
+    </p>
+    <div class="princi-name">- Mr Bhesh Raj Pokhrel</div>
+  </div>
+  <div class="half-bg">
+    <div class="princi-img" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/bhesh.png)">
+  </div>
   </div>
 </section>
 
@@ -329,6 +317,8 @@ we adopt.
   </div>
   </div>
   <div class="iso-content">
+    <!-- <div class="game-svg" style="background-image: url(<?php echo get_template_directory_uri();?>/assets/images/svg/games.svg)"></div>
+    <div class="study-svg"></div> -->
     <h2>Our Salient Features</h2>
     <p class="mb-5">
     Caring, loving and supportive educational environment
@@ -378,7 +368,7 @@ co-operative faulty members & staffs
           </nav>
         </div>
         <div class="col-md-4">
-        <img src="<?php echo get_template_directory_uri()?>/assets/images/logo/texas-nobg-logo.png" alt="">
+        <img src="<?php echo get_template_directory_uri()?>/assets/images/logo/texas-logo.png" alt="">
         </div>
       </div>
     </div>
